@@ -1,0 +1,18 @@
+############################
+# Customize the test machine
+############################
+machine:
+  # Version of node to use.
+  node:
+    version: 0.10.35
+
+############################
+# Customize dependencies
+############################
+dependencies:
+  pre:
+    - gem install compass
+    - gem install sass
+    - npm install -g karma
+    - npm install -g bower
+    - bower install
